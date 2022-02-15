@@ -1,5 +1,6 @@
 {
-    "zangado": {
+    "zangado": 
+    {
         "boas_vindas": "@#$!!@#&# EU TAVA DORMINDO!",
         "apresentacao": "ME DEIXA!",
         "despedida": "VAI TARDE",
@@ -7,6 +8,17 @@
             {
                 "conte uma piada": ["piada1", "piada2", "piada3", "HAHAHAHAHHA"],
                 "me fale sobre o clima": ["clima1", "CLIMA", "clima3"]
-            }
-        
-}}
+            }  
+    },
+    "feliz?": 
+    {
+        "boas_vindas": "bom dia :DDDDDDD, obrigado por me escolher :DDD",
+        "apresentacao": "heheheheheh eu so o feliz",
+        "despedida": "adeuuuuuuuuuuuuusssss",
+        "comandos": 
+            {
+                "conte uma piada": ["piadaFeliz1", "piadaFeliz2", "PiadaFeliz3", "EHEHEHAHHAHDHFHAHDFHAW:DDDDDD  ;-;"],
+                "fale sobre filosofia": ["filo1", "filo2", "eu so mto feliz pra isso  :DDDDD"]
+            }  
+    }
+}
