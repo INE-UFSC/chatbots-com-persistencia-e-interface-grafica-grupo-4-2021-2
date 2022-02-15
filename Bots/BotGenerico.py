@@ -29,7 +29,7 @@ class BotGenerico(Bot):
     def mostra_comandos(self):
         mensa = ""
         for i in self.__comandos:
-            mensa +=  f"{i.id} --- {i.mensagem}/n"
+            mensa +=  f"{i.id} --- {i.mensagem}\n"
         return mensa
     
     def executa_comando(self,cmd):
