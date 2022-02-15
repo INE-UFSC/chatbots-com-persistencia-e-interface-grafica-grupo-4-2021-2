@@ -1,0 +1,12 @@
+{
+    "zangado": {
+        "boas_vindas": "@#$!!@#&# EU TAVA DORMINDO!",
+        "apresentacao": "ME DEIXA!",
+        "despedida": "VAI TARDE",
+        "comandos": 
+            {
+                "conte uma piada": ["piada1", "piada2", "piada3", "HAHAHAHAHHA"],
+                "me fale sobre o clima": ["clima1", "CLIMA", "clima3"]
+            }
+        
+}}

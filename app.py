@@ -1,9 +1,10 @@
 #encoding: utf-8
 from SistemaChatBot import SistemaChatBot as scb
-from Bots.BotZangado import BotZangado
+from SistemaChatBot.bot_factory import Bot_factory
 
 ###construa a lista de bots disponíveis aqui
-lista_bots = [BotZangado("Yoda")]
+factory = Bot_factory()
+print(factory.bot_list)
 
-sys = scb.SistemaChatBot("CrazyBots",lista_bots)
+sys = scb.SistemaChatBot("CrazyBots",factory.bot_list)
 sys.inicio()
