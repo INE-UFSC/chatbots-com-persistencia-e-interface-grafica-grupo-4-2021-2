@@ -10,7 +10,7 @@ class Bot(ABC):
         return self.__nome
 
     @nome.setter
-    def nome(novo_nome):
+    def nome(self, novo_nome):
         self.__nome = novo_nome
 
     def mostra_comandos(self):
@@ -27,4 +27,7 @@ class Bot(ABC):
     @abstractmethod
     def despedida():
         pass
-
+    
+    @abstractmethod
+    def apresentacao():
+        pass

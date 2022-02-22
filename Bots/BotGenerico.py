@@ -27,10 +27,10 @@ class BotGenerico(Bot):
         return self.__apresentacao
  
     def mostra_comandos(self):
-        mensa = ""
+        mensagens = {}
         for i in self.__comandos:
-            mensa +=  f"{i.id} --- {i.mensagem}\n"
-        return mensa
+            mensagens[i.id] = i.mensagem
+        return mensagens
     
     def executa_comando(self,cmd):
         for i in self.__comandos:
