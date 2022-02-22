@@ -21,7 +21,6 @@ class Gui:
         self.__layout_bot_escolhido = [[sg.Text(self.__sistema.bot.boas_vindas)],
                                        *[[sg.Button(f'{msg_list[i + 1]}')]
                                          for i in range(len(msg_list))],
-                                       [sg.Button('Back')],
                                        [sg.Txt('', key='output')]]
 
     def update_window(self):
