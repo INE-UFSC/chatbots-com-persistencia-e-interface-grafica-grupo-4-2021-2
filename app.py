@@ -1,7 +1,7 @@
 #encoding: utf-8
 from SistemaChatBot import SistemaChatBot as scb
-from SistemaChatBot.bot_factory import Bot_factory
+from gui import Gui
 
 
-sys = scb.SistemaChatBot("CrazyBots")
-sys.inicio()
+gui = Gui('UFSC')
+gui.run_main_loop()
